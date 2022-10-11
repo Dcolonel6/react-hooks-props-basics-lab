@@ -14,11 +14,12 @@ function App() {
       <Home 
         name = {user.name}
         color = {user.color}
-        city = {user.city} />
-      <About 
-        bio = {user.bio}
-        github = {user.links.github}
-        linkedin = {user.links.linkedin} />
+        city = {user.city}
+      />
+      <About         
+        bio={user.bio}
+        links={user.links}       
+      />     
     </div>
   );
 }
